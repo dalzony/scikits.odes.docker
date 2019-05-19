@@ -1,0 +1,1 @@
+/usr/bin/cc   -rdynamic CMakeFiles/cvKrylovDemo_prec.dir/cvKrylovDemo_prec.c.o  -o cvKrylovDemo_prec -Wl,-rpath,/root/sundials/build_sundials-3.1.1/src/cvode:/root/sundials/build_sundials-3.1.1/src/nvec_ser ../../../src/cvode/libsundials_cvode.so.3.1.1 ../../../src/nvec_ser/libsundials_nvecserial.so.3.1.1 -lm -lrt -lm 

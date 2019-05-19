@@ -1,0 +1,1 @@
+/usr/bin/cc   -rdynamic CMakeFiles/ark_robertson_root.dir/ark_robertson_root.c.o  -o ark_robertson_root -Wl,-rpath,/root/sundials/build_sundials-3.1.1/src/arkode:/root/sundials/build_sundials-3.1.1/src/nvec_ser ../../../src/arkode/libsundials_arkode.so.2.1.1 ../../../src/nvec_ser/libsundials_nvecserial.so.3.1.1 -lm -lrt -lm 

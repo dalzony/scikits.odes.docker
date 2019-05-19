@@ -1,0 +1,1 @@
+/usr/bin/cc   -rdynamic CMakeFiles/idasHeat2D_bnd.dir/idasHeat2D_bnd.c.o  -o idasHeat2D_bnd -Wl,-rpath,/root/sundials/build_sundials-3.1.1/src/idas:/root/sundials/build_sundials-3.1.1/src/nvec_ser ../../../src/idas/libsundials_idas.so.2.1.0 ../../../src/nvec_ser/libsundials_nvecserial.so.3.1.1 -lm -lrt -lm 

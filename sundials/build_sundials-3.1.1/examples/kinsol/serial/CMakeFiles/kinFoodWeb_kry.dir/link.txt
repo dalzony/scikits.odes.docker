@@ -1,0 +1,1 @@
+/usr/bin/cc   -rdynamic CMakeFiles/kinFoodWeb_kry.dir/kinFoodWeb_kry.c.o  -o kinFoodWeb_kry -Wl,-rpath,/root/sundials/build_sundials-3.1.1/src/kinsol:/root/sundials/build_sundials-3.1.1/src/nvec_ser ../../../src/kinsol/libsundials_kinsol.so.3.1.1 ../../../src/nvec_ser/libsundials_nvecserial.so.3.1.1 -lm -lrt -lm 

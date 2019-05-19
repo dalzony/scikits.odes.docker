@@ -1,0 +1,1 @@
+/usr/bin/cc   -rdynamic CMakeFiles/cvsAdvDiff_bnd.dir/cvsAdvDiff_bnd.c.o  -o cvsAdvDiff_bnd -Wl,-rpath,/root/sundials/build_sundials-3.1.1/src/cvodes:/root/sundials/build_sundials-3.1.1/src/nvec_ser ../../../src/cvodes/libsundials_cvodes.so.3.1.1 ../../../src/nvec_ser/libsundials_nvecserial.so.3.1.1 -lm -lrt -lm 
