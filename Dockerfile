@@ -27,3 +27,4 @@ RUN apt-add-repository ppa:speth/cantera
 RUN aptitude update
 RUN aptitude install -y cantera-python cantera-python3 cantera-dev
 RUN pip3 install ipython matplotlib
+RUN mkdir -p /root/code
