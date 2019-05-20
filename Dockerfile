@@ -25,5 +25,5 @@ RUN apt-get install -y aptitude
 RUN apt-get install -y software-properties-common
 RUN apt-add-repository ppa:speth/cantera
 RUN aptitude update
-RUN aptitude install cantera-python cantera-python3 cantera-dev
+RUN aptitude install -y cantera-python cantera-python3 cantera-dev
 RUN pip3 install ipython matplotlib
